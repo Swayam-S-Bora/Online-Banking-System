@@ -24,5 +24,4 @@
 <p>• STS</p>
 <p>• Mysql</p>
 <h2> Tables :</h2>
- <img src="Database Tables.png/">
-
+ <img src="Database Tables.png">
