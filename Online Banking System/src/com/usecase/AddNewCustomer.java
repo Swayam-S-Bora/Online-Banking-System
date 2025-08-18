@@ -31,6 +31,8 @@ public class AddNewCustomer {
 		System.out.println("Enter Amount : ");
 		int c_Total_Amount = sc.nextInt();
 
+		sc.close();
+
 		if (c_Total_Amount < 1000) {
 			throw new CustomerException("Please enter more than 1000 rupee");
 		}
