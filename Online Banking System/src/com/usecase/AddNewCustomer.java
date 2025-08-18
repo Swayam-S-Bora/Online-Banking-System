@@ -16,13 +16,13 @@ public class AddNewCustomer {
         Scanner sc=new Scanner(System.in);
 		
 		System.out.println("Enter CustomerName:");
-		String c_Name = sc.next();
+		String c_Name = sc.nextLine().trim();
 
 		System.out.println("Enter password:");
 		String c_Password = sc.next();
-        
+		sc.nextLine();
 		System.out.println("Enter Address : ");
-		String c_Address = sc.next();
+		String c_Address = sc.nextLine().trim();
 		
 		System.out.println("Enter Mobile Number : ");
 		String c_Mob_No = sc.next();

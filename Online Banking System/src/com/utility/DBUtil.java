@@ -21,17 +21,12 @@ public class DBUtil {
 				String url = "jdbc:mysql://localhost:3306/online_Banking_system";
 				
 				try{
-				  conn=	DriverManager.getConnection(url,"root","Msql");
+				  conn=	DriverManager.getConnection(url,"Swayam","859176");
 				} catch (SQLException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 				
 				return conn;
-			
 	 }
-	
-	
-	
-	
 }

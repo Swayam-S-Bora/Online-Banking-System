@@ -35,7 +35,7 @@ public class Main {
 	    System.out.println("Enter Accountant Password");
 	    String Password = scanner.next();
 	    
-	    if(accountant.equals("Admin") && Password.equals("1234")) {
+	    if(accountant.equals("admin") && Password.equals("1234")) {
 	    	
 	    	Accountant.admin();
 	    	
